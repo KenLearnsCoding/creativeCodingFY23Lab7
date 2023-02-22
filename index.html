@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 5 - Responsive design</title>
+    
+    <meta charset="utf-8">
+    <meta name="author" content="Jenny Dcruz">
+    <meta name="description" content="Understanding responsive design">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <nav id="mainNav" class="mainNav">
+            <ul id="mainNavList" class="mainNavList">
+                <li id="mainNavIcon" class="mainNavIcon" onclick="toggleMenu()">
+                    <a href=#>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <a id="mainNavItem1" class="mainNavItem" href="#article1"><li>Article 1</li></a>
+                <a id="mainNavItem2" class="mainNavItem" href="#article2"><li>Article 2</li></a>
+                <a id="mainNavItem3" class="mainNavItem" href="#article3"><li>Article 3</li></a>
+                <a id="mainNavItem4" class="mainNavItem" href="#article4"><li>Article 4</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page headings -->
+    <div id="pageHeading" class="pageHeading">
+        <h1>Welcome to Week 5</h1>
+        <h2>Introduction to responsive design (Part 2)</h2>
+    </div>
+
+    <!-- Main container -->
+    <section id="allArticles">
+        <!-- Side nav -->
+        <aside id="sideNav" class="container sideNav">
+            <ul id="sideNavList" class="sideNavList">
+                <a id="sideNavItem" class="sideNavItem" href="#article1"><li>Article 1</li></a>
+                <a id="sideNavItem" class="sideNavItem" href="#article2"><li>Article 2</li></a>
+                <a id="sideNavItem" class="sideNavItem" href="#article3"><li>Article 3</li></a>
+                <a id="sideNavItem" class="sideNavItem" href="#article4"><li>Article 4</li></a>
+            </ul>
+        </aside>
+
+        <h3>Dummy articles</h3>
+        <article id="article1" class="container article">
+            <h4>Article 1</h4>
+            <a id="bgImgLink" class="bgImgLink" href="https://unsplash.com/wallpapers/nature/scenery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                <img id="bgExample" class="bgImg" src="assets/images/bg.jpg" alt="Scenery image" title="Photo by OC Gonzalez on Unsplash">
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad repellat perferendis minima sit consequatur perspiciatis tempora 
+                praesentium, amet animi dolorum quia quas numquam ab cum illum, beatae a incidunt. Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Architecto id distinctio, iusto cupiditate inventore non vel illum iure ratione nulla repellat, dignissimos recusandae repellendus 
+                dolorum quas delectus quidem similique modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, sunt accusantium. 
+                Nobis architecto officiis pariatur quibusdam, alias voluptatibus maxime? Saepe ratione veritatis minima qui dignissimos amet velit eligendi. 
+                Culpa, soluta.</p>
+        </article>
+        <article id="article2" class="container article">
+            <h4>Article 2</h4>
+            <a id="bgImgLink" class="bgImgLink" href="https://unsplash.com/wallpapers/nature/scenery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                <img id="bgExample" class="bgImg" src="assets/images/bg.jpg" alt="Scenery image" title="Photo by OC Gonzalez on Unsplash">
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad repellat perferendis minima sit consequatur perspiciatis tempora 
+                praesentium, amet animi dolorum quia quas numquam ab cum illum, beatae a incidunt. Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Architecto id distinctio, iusto cupiditate inventore non vel illum iure ratione nulla repellat, dignissimos recusandae repellendus 
+                dolorum quas delectus quidem similique modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, sunt accusantium. 
+                Nobis architecto officiis pariatur quibusdam, alias voluptatibus maxime? Saepe ratione veritatis minima qui dignissimos amet velit eligendi. 
+                Culpa, soluta.</p>
+        </article>
+        <article id="article3" class="container article">
+            <h4>Article 3</h4>
+            <a id="bgImgLink" class="bgImgLink" href="https://unsplash.com/wallpapers/nature/scenery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                <img id="bgExample" class="bgImg" src="assets/images/bg.jpg" alt="Scenery image" title="Photo by OC Gonzalez on Unsplash">
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad repellat perferendis minima sit consequatur perspiciatis tempora 
+                praesentium, amet animi dolorum quia quas numquam ab cum illum, beatae a incidunt. Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Architecto id distinctio, iusto cupiditate inventore non vel illum iure ratione nulla repellat, dignissimos recusandae repellendus 
+                dolorum quas delectus quidem similique modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, sunt accusantium. 
+                Nobis architecto officiis pariatur quibusdam, alias voluptatibus maxime? Saepe ratione veritatis minima qui dignissimos amet velit eligendi. 
+                Culpa, soluta.</p>
+        </article>
+        <article id="article4" class="container article">
+            <h4>Article 4</h4>
+            <a id="bgImgLink" class="bgImgLink" href="https://unsplash.com/wallpapers/nature/scenery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                <img id="bgExample" class="bgImg" src="assets/images/bg.jpg" alt="Scenery image" title="Photo by OC Gonzalez on Unsplash">
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, ad repellat perferendis minima sit consequatur perspiciatis tempora 
+                praesentium, amet animi dolorum quia quas numquam ab cum illum, beatae a incidunt. Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Architecto id distinctio, iusto cupiditate inventore non vel illum iure ratione nulla repellat, dignissimos recusandae repellendus 
+                dolorum quas delectus quidem similique modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, sunt accusantium. 
+                Nobis architecto officiis pariatur quibusdam, alias voluptatibus maxime? Saepe ratione veritatis minima qui dignissimos amet velit eligendi. 
+                Culpa, soluta.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <footer id="footer" class="footer">
+        <p>&copy; MMDD159 - Contemporary Web Design 1 | 2023</p>
+    </footer>
+
+</body>
+
+</html>
